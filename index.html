@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+                content="width=device-width, initial-scale=1.0">
+        <title>Ethan Guyant Portfolio Website</title>
+        <!-- Normalize CSS file irons out some difference between browsers -->
+        <link rel="stylesheet" 
+                href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <!-- Google Fonts-->
+        <link 
+                href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" 
+                rel="stylesheet">
+        <!-- CSS File-->
+        <link rel="stylesheet" 
+                href="./css/style.css">
+        <!-- Animation on Scroll-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    </head>
+    <body>
+            <header>
+                    <div class="logo">
+
+                    </div>
+                    <button class="nav-toggle" aria-label="toggle navigation">
+                            <span class="hamburger"></span>
+                    </button>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                                <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                                <li class="nav__item"><a href="#blog" class="nav__link">My Blog</a></li>
+                                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                        </ul>
+                    </nav>
+
+            </header>
+
+        <!-- =============================== LANDING PAGE START =============================== -->
+
+        <section class="intro parallax parallax-container" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Ethan Guyant</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Transform Ideas into Reality</p>
+
+            <img src="./img/IMG_2174.jpg" alt="a picture of Ethan Guyant" class="intro__img">
+            <div class="scroll-logo">   
+                <svg id="EG" viewBox="0 0 152 216">
+                    <g>
+                        <path id="hex"d="M 76.342 4 L 147.685 41.377 L 147.685 116.13 L 76.342 153.506 L 5 116.13 L 5 41.377 Z" style="stroke-width: 8.37394px; fill-opacity: 0; fill: none; stroke: #da843e;"></path>
+                        <polygon class="logo"style="stroke-width: 3.58883px; stroke: #da843e; fill: #da843e;" points="41.001 38.501 112.012 38.501 112.012 62.884 97.474 62.884 97.474 54.976 41.001 54.976"></polygon>
+                        <polygon class="logo" style="stroke-width: 3.58883px; stroke: #da843e; fill: #da843e;" points="40.671 102.9 97.81 102.9 97.81 86.796 83.604 86.796 83.604 70.701 112.014 70.701 112.014 102.92 112.014 119.004 40.939 119.004"></polygon>
+                        <polygon class="logo" style="stroke-width: 3.58883px; stroke: #da843e; fill: #da843e;" points="41.001 70.701 69.753 70.701 63.532 87.725 41.317 87.725"></polygon>
+                        <polyline id="down1" style="fill: none; stroke-width: 8.2px; stroke: #da843e;" points="5 141.013 76.956 179.798 148.912 141.013"></polyline>
+                        <polyline id="down2" style="fill: none; stroke-width: 8.2px; stroke: #da843e;" points="3.773 168.215 75.729 207 147.685 168.215"></polyline>
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!-- =============================== LANDING PAGE END =============================== -->
+
+        <!-- =============================== SERVICES START =============================== -->   
+
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <div class="service__title">
+                        <div class="service__wrap">
+                            <i class="fas fa-chart-line service__wrap--icon"></i>
+                        </div>
+                        <h3>Data Analyitcs</h3>
+                    </div>
+                    <div class="service__accent">Address the questions that we know we don't know the answers to.</div>
+                    <p>Utilize data to derive meaningful insights, solve complex problems, and maximize the value of collected data.
+                    </p>
+                </div>
+                
+                <div class="service">
+                    <div class="service__title">
+                        <div class="service__wrap">
+                            <i class="fas fa-flask service__wrap--icon"></i>
+                        </div>
+                        <h3>Data Science</h3>
+                    </div>
+                    <div class="service__accent">Discover what we don't know that we don't know.</div>
+                    <p>Find the right questions to ask through exploration of datasets, data-driven predictions, and actionable insights.
+                    </p>
+                </div>
+                
+                <div class="service">
+                    <div class="service__title">
+                        <div class="service__wrap">
+                            <i class="fas fa-code service__wrap--icon"></i>
+                        </div>
+                        <h3>Solution Development</h3>
+                    </div>
+                    <div class="service__accent">Connect it all together.</div>
+                    <p>Find the right questions to ask through exploration of datasets, data-driven predictions, and actionable insights. 
+                    </p>
+                </div>
+
+                <div class="service">
+                    <div class="service__title">
+                        <div class="service__wrap">
+                            <i class="far fa-chart-bar service__wrap--icon"></i>
+                        </div>
+                        <h3>Data Visualization</h3>
+                    </div>
+                    <div class="service__accent">Effectively communicate findings with visual story telling.</div>
+                    <p>Raw data rarely tells a compelling story. Imapctful visualizations make data easier to understand and communicate the story of the underlying data.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <div class="service__title">
+                        <div class="service__wrap">
+                            <i class="fas fa-database service__wrap--icon"></i>
+                        </div>
+                        <h3>Database Development</h3>
+                    </div>
+                    <div class="service__accent">Collect, Store, Deliver</div>
+                    <p>Data is the foundation of every data-driven project, and to put data to use it must first be collected and stored in a structured and accessable way. 
+                    </p>
+                </div>
+
+                <div class="service">
+                    <div class="service__title">
+                        <div class="service__wrap">
+                            <i class="fas fa-laptop-code service__wrap--icon"></i>
+                        </div>
+                        <h3>Model Development</h3>
+                    </div>
+                    <div class="service__accent">Learn from the past to predict future outcomes</div>
+                    <p>Develop models which identify data patterns generating insights and predictions allowing for better decision making in the presence of uncertainty. 
+                    </p>
+                </div>
+            </div> 
+            
+            <!-- Skills -->
+            <div class="header">
+                <h2 class="section__title section__title--skills">How I do it</h2>
+            </div> 
+                <div class="skill-2">
+                    <div class="container">
+                        <div class="card"
+                            data-aos="zoom-in"
+                            data-aos-offset="300"
+                            data-aos-duration="500"
+                            data-aos-easing="ease-in-sine">
+                            <div class="box">
+                                <div class="percent">
+                                    <svg class="circle">
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                        <circle cx="70" cy="70" r="70" ></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h2>65<span>%</span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text">SQL</div>
+                        </div>
+
+                        <div class="card"
+                            data-aos="zoom-in"
+                            data-aos-offset="300"
+                            data-aos-duration="500"
+                            data-aos-easing="ease-in-sine">
+                            <div class="box">
+                                <div class="percent">
+                                    <svg class="circle">
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h2>60<span>%</span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text">PYTHON</div>
+                        </div>
+
+                        <div class="card"
+                        data-aos="zoom-in"
+                        data-aos-offset="300"
+                        data-aos-duration="500"
+                        data-aos-easing="ease-in-sine">
+                            <div class="box">
+                                <div class="percent">
+                                    <svg class="circle">
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h2>75<span>%</span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text">VBA</div>
+                        </div>
+
+                        <div class="card"
+                        data-aos="zoom-in"
+                        data-aos-offset="300"
+                        data-aos-duration="500"
+                        data-aos-easing="ease-in-sine">
+                            <div class="box">
+                                <div class="percent">
+                                    <svg class="circle">
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h2>50<span>%</span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text">HTML</div>
+                        </div>
+                        <div class="card"
+                        data-aos="zoom-in"
+                        data-aos-offset="300"
+                        data-aos-duration="500"
+                        data-aos-easing="ease-in-sine">
+                            <div class="box">
+                                <div class="percent">
+                                    <svg class="circle">
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h2>35<span>%</span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text">CSS</div>
+                        </div>
+                        <div class="card"
+                        data-aos="zoom-in"
+                        data-aos-offset="300"
+                        data-aos-duration="500"
+                        data-aos-easing="ease-in-sine">
+                            <div class="box">
+                                <div class="percent">
+                                    <svg class="circle">
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                        <circle cx="70" cy="70" r="70"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <h2>80<span>%</span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text">Power Automate</div>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- My Work Button-->
+            <a href="#work" class="btn btn__my-work">My Work</a>
+
+
+        </section>
+        
+        <!-- =============================== SERVICES END =============================== -->
+
+        <!-- =============================== ABOUT ME START =============================== -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Data Analyst | Data Scientist | Solution Developer</p>
+               
+            <div class="about-me__body">
+                <p>I am naturally inquisitive person who finds himself in a constant state of curiosity. I truely enjoy working with and learning more about all aspects of data science.
+                    The journey taken from raw messy data to knowledge gained is what keeps me driven. The excitement comes from the creativity, collaboration, and problem solving required to create novel solutions to complex problems which result in significant discovery or insight.
+                </p>
+                <p>I thrive on bringing creative thinking and problem solving to the development of data-driven solutions and distilling datasets down to key articulable insights. These insights are the fuel to data-driven decisions.</p>
+                <p><strong>Do you have insights locked away in data? Lets unlock them! <br><br></strong></p>
+                <div class="test">
+                    <a href="mailto:emguyant@icloud.com" class="btn">Contact Me</a>
+                </div>
+            </div>
+               
+            <img src="./img/me-2.jpg" alt="a photo of Ethan Guyant" class="about-me__img">
+            
+        </section>
+
+        <!-- =============================== ABOUT ME END =============================== -->
+
+        <!-- =============================== MY WORK START =============================== -->
+
+        <section class="my-projects" id="projects">
+            <div class="header">
+                <h2 class="section__title section__title--services">My Work</h2>
+            </div>
+            <div class="projects-container">
+                    <div class="all-projects">
+                        <div class="project" 
+                            data-aos="fade-up-right" 
+                            data-aos-offset="300" 
+                            data-as-anchor="top-center" 
+                            data-aos-duration="500" 
+                            data-aos-easing="ease-in-sine">
+
+                            <div class="left project__item">
+                                <div class="img project__img">
+                                    <img src="img/portfolio-01.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <div class="right">
+                                <h2 class="project-title">Control Charting</h2>
+                                <h3 class="project-sub-title">Client Application Development</h3>
+                                <p class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <div class="buttons">
+                                    <a href="#" class="btn btn-project">Find out more</a>
+                                    <a href="#" class="btn btn-project"><span>Preview </span><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project"
+                            data-aos="fade-up-left" 
+                            data-aos-offset="300" 
+                            data-as-anchor="top-center" 
+                            data-aos-duration="500" 
+                            data-aos-easing="ease-in-sine">
+
+                            <div class="left project__item">
+                                <div class="img project__img">
+                                    <img src="img/portfolio-01.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="right">
+                                <h2 class="project-title">Requirement File Population</h2>
+                                <h3 class="project-sub-title">Data Automation</h3>
+                                <p class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <div class="buttons">
+                                    <a href="#" class="btn btn-project">Find out more</a>
+                                    <a href="#" class="btn btn-project"><span>Preview </span><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project" 
+                            data-aos="fade-up-right" 
+                            data-aos-offset="300" 
+                            data-as-anchor="top-center" 
+                            data-aos-duration="500" 
+                            data-aos-easing="ease-in-sine">
+
+                            <div class="left project__item">
+                                <div class="img project__img">
+                                    <img src="img/portfolio-01.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="right">
+                                <h2 class="project-title">Product Review Analysis</h2>
+                                <h3 class="project-sub-title">Text Analysis</h3>
+                                <p class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <div class="buttons">
+                                    <a href="#" class="btn btn-project">Find out more</a>
+                                    <a href="#" class="btn btn-project"><span>Preview </span><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </h2>
+            </div>
+
+        </section>
+
+
+        <!-- =============================== MY WORK END =============================== -->
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:eguyant@icloud.com" class="footer__link">emguyant@icloud.com</a>
+            <ul class="social-list">
+                <!--<li class="social-list__item">
+                    <a class="social-list__link" href="https://medium.com/">
+                        <i class="fab fa-medium"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://stackoverflow.com/">
+                        <i class="fab fa-stack-overflow"></i>
+                    </a>
+                </li> -->
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/ethan-guyant/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/EMGuyant">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="https://kit.fontawesome.com/c9965d23bb.js" crossorigin="anonymous"></script>
+        <script src="./js/script.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+        
+    </body>
+</html>
