@@ -301,6 +301,7 @@ header {
 
     .section__subtitle--intro {
         color: var(--clr-accent2);
+        font-size: 1.3rem;
         align-self: start;
         grid-column: -1 / 1;
         grid-row: 2;
@@ -654,10 +655,10 @@ svg circle:nth-child(2) {
 
 
 .card:nth-child(1) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440px - (440px * 65)/100);
+    stroke-dashoffset: calc(440px - (440px * 55)/100);
 }
 .card:nth-child(2) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440px - (440px * 60)/100);
+    stroke-dashoffset: calc(440px - (440px * 45)/100);
 }
 .card:nth-child(3) svg circle:nth-child(2) {
     stroke-dashoffset: calc(440px - (440px * 75)/100);
@@ -735,7 +736,7 @@ svg circle:nth-child(2) {
 /* =============================== WORK SECTION =============================== */
 
 .my-projects {
-    padding: 5rem 0;
+    padding: 3rem 0;
     background-color: var(--clr-dark2);
     background-image: url(../img/chris-hainto-X9kuR2sYSqo-unsplash.jpg);
 
@@ -802,6 +803,7 @@ svg circle:nth-child(2) {
     border-radius: 12px;
     background: var(--clr-accent);
     overflow: hidden;
+
 }
 
 .project__img {
