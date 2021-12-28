@@ -97,6 +97,8 @@ strong {
 .btn {
     display: inline-block;
     padding: 0.5em 2.5em;
+    margin-top: 0.85rem;
+    margin-right: 0.85rem;
     background: var(--clr-accent);
     color: var(--clr-dark);
     text-decoration: none;
